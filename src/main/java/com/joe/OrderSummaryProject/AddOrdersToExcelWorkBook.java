@@ -12,6 +12,10 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+/**
+ * @author Joe Kabubo
+ * @date   4th October 2022
+ */
 public class AddOrdersToExcelWorkBook {
 
 	public void addOrders(String filePath, String sheetName, int startRow, ArrayList<Order> orders) throws IOException {

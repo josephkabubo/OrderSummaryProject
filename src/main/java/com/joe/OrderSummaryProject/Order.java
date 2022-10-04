@@ -2,6 +2,10 @@ package com.joe.OrderSummaryProject;
 
 import java.util.Date;
 
+/**
+ * @author Joe Kabubo
+ * @date   4th October 2022
+ */
 public class Order {
 	private String orderId;
 	private String orderType;
